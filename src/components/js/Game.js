@@ -58,11 +58,11 @@ class Game extends React.Component {
     let aliveNeigbours = 0;
 
     /*
-* == Cell
-TL T  TR
-L  *  R
-BL B  BR
-  */
+    * == Cell
+    TL T  TR
+    L  *  R
+    BL B  BR
+    */
 
     for (const neighbour in this.neighbours) {
       const [x, y] = this.neighbours[neighbour];
