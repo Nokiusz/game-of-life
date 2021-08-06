@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+h1 {
+  margin: 5px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  background-color: #030303;
+  border: 1px solid #fff;
+}
+
+.cell--dead {
+  background-color: #000;
+}
+
+.cell--alive {
+  background-color: #fff;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 5px;
+  padding: 20px 45px;
+  max-width: 205px;
+  min-width: 205px;
+  font-size: 1.5rem;
+  text-align: center;
+  user-select: none;
+  color: #fff;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.btn--random {
+  background: #007bff;
+}
+
+.btn--random:focus,
+.btn--random:hover:enabled {
+  background: #004c9e;
+}
+
+.btn--start {
+  background: #208637;
+}
+
+.btn--start:focus,
+.btn--start:hover {
+  background: #135322;
+}
+
+.btn--stop {
+  background: #a51d2a;
+}
+
+.btn--stop:focus,
+.btn--stop:hover {
+  background: #79151f;
+}

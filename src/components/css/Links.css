@@ -1,0 +1,16 @@
+.links {
+  display: block;
+  float: right;
+  margin-top: 1em;
+}
+
+.links a {
+  margin: 4px;
+  transition: 0.3s;
+}
+
+.links a:visited:hover,
+.links a:hover,
+.links a:focus {
+  color: #fff;
+}
